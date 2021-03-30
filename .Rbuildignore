@@ -1,4 +1,13 @@
-^leine\.Rproj$
+^.*\.Rproj$
 ^\.Rproj\.user$
-^LICENSE\.md$
-^\.radian_history$
+^codecov\.yml$
+^docs$
+^pkgdown$
+Dockerfile
+.dockerignore
+^\.github$
+.vscode
+LICENSE.md
+^vignettes/
+.azure
+.radian_history

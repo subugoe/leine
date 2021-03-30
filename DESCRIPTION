@@ -1,16 +1,37 @@
 Package: leine
-Title: What the Package Does (One Line, Title Case)
+Title: Data Pipelines for subugoe/wag
 Version: 0.0.0.9000
+Depends: R (>= 4.0.0)
 Authors@R: 
-    c(person(given = "Maximilian",
-             family = "Held",
-             role = c("aut", "cre"),
-             email = "info@maxheld.de",
-             comment = c(ORCID = "0000-0002-4703-5388")),
-      person(family = c(subugoe = "Göttingen State and University Library")))
-Description: What the package does (one paragraph).
+    c(
+      person(
+        given = "Maximilian",
+        family = "Held",
+        role = c("aut", "cre"),
+        email = "info@maxheld.de",
+        comment = c(ORCID = "0000-0002-4703-5388")
+      ),
+      person(
+        given = "Göttingen State and University Library",
+        role = c("cph", "fnd")
+      )
+    )
+Description:
+    Provides documentation, glue code and wrappers for the data pipelines
+    used at WAG.
 License: MIT + file LICENSE
+Language: en
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.1.9999
+URL: https://subugoe.github.io/leine, https://github.com/subugoe/leine
+BugReports: https://github.com/subugoe/leine/issues
+Imports:
+    bigrquery (>= 1.3.2)
+Suggests: 
+    testthat (>= 3.0.0),
+    subugoetheme
+Remotes:
+  subugoe/subugoetheme@1.1.1,
+Config/testthat/edition: 3
