@@ -1,0 +1,14 @@
+---
+title: "Vendor Comparison"
+---
+
+| Product/Vendor | [AWS](https://aws.amazon.com) | [GCP](https://cloud.google.com) | [Azure](http://azure.microsoft.com) | On-Prem |
+| - | - | - | - |
+| Storage | [S3](https://aws.amazon.com/s3/) | [GCS](https://cloud.google.com/storage) | [Blob Storage](https://azure.microsoft.com/en-us/services/storage/blobs/) | [Hadoop](https://hadoop.apache.org) HDFS (?)|
+| CaaS (stateful, for shiny) | | [App Engine Flexible](https://cloud.google.com/appengine/docs/flexible) | [App Service](https://docs.microsoft.com/en-us/azure/app-service/overview) | [Kubernetes](https://kubernetes.io) ?|
+| CaaS (stateless, for plumber) | | [Cloud Run](https://cloud.google.com/run) | | |
+| Pipeline Orchestration | [Date Pipeline](https://aws.amazon.com/datapipeline/) | [Dataflow](https://cloud.google.com/dataflow) (Apache Beam) | [Data Factory](https://azure.microsoft.com/en-gb/services/data-factory/) | |
+| MPP | | [Cloud Dataproc](https://cloud.google.com/dataproc/) (Spark, Hadoop) | [Synapse Analytics](https://docs.microsoft.com/en-gb/azure/synapse-analytics/) (Spark) | [Apache Spark](https://projects.apache.org/project.html?spark) |
+| OLAP DB (key/value, document) | [DynamoDB](https://aws.amazon.com/dynamodb) | | |
+| OLAP DB (schema) | [Redshift](https://aws.amazon.com/redshift) | [BigQuery](https://cloud.google.com/bigquery) | [Synapse Analytics](https://docs.microsoft.com/en-gb/azure/synapse-analytics/) (formerly Data Warehouse) | [Apache Spark](https://projects.apache.org/project.html?spark), [Apache Ignite](https://ignite.apache.org) ?|
+| Discovery | | | | [Data Catalog](https://azure.microsoft.com/en-gb/services/data-catalog/) | |
