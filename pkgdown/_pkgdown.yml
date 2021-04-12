@@ -5,3 +5,8 @@ authors:
     href: https://www.sub.uni-goettingen.de/
 template:
   package: subugoetheme
+reference:
+- title: Data Lake
+- subtitle: Crossref
+  contents:
+  - has_concept("cr")
