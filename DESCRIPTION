@@ -34,7 +34,8 @@ Imports:
     httr (>= 1.4.2),
     lubridate (>= 1.7.10),
     rlang (>= 0.4.10),
-    stringr (>= 1.4.0)
+    stringr (>= 1.4.0),
+    dplyr (>= 1.0.5)
 Suggests: 
     testthat (>= 3.0.0),
     subugoetheme
